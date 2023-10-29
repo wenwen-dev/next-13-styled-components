@@ -1,3 +1,9 @@
+## My reflections
+
+1. The styled wrapper returned is already a component, so no need to put it into another component function.
+
+2. RSC's main purpose is optimisation. The actual KB it saves might not be huge, depending on app size and design.
+
 ## Next 13 + styled-components
 
 This repo is meant to be used as part of an exercise in [The Joy of React](https://www.joyofreact.com/).

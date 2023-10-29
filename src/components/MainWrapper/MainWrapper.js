@@ -1,4 +1,5 @@
-import React from 'react';
+'use client';
+
 import styled from 'styled-components';
 
 const MainWrapper = styled.main`
@@ -11,8 +12,4 @@ const MainWrapper = styled.main`
   background: white;
 `;
 
-function Main({ children }) {
-  return <MainWrapper>{children}</MainWrapper>;
-}
-
-export default Main;
+export default MainWrapper;

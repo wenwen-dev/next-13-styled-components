@@ -1,10 +1,9 @@
-'use client';
 import React from 'react';
-import Main from '../components/Main/Main';
+import MainWrapper from '../components/MainWrapper/MainWrapper';
 
 function Home() {
   return (
-    <Main>
+    <MainWrapper>
       <h1>
         Exploring the trade-offs with half-gauge vs. full-gauge wire in
         laminated woodworking
@@ -98,7 +97,7 @@ function Home() {
         woodworkers, this may be an important factor to weigh when selecting the
         appropriate wire gauge for laminating woodgrain.
       </p>
-    </Main>
+    </MainWrapper>
   );
 }
 
